@@ -6,5 +6,5 @@ version = 1
 
 # random small messages
 [[segment.mempool]]
-size = 128
-count = 1000000
+size = 10220920
+count = 128
