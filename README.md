@@ -1,5 +1,10 @@
 # Zero copy evaluation
 
+# deps
+```
+sudo apt install ros-galactic-test-msgs ros-galactic-cyclonedds ros-galactic-rmw-cyclonedds-cpp
+```
+
 # build
 ```
 colcon build
@@ -8,7 +13,7 @@ colcon build
 # run zerocopy cyclone-dds
 ```
 # terminal 0
-/opt/ros/humble/bin/iox-roudi -c roudi_config.toml
+/opt/ros/${ROS_DISTRO}/bin/iox-roudi -c roudi_config.toml
 
 # terminal 1
 source setup_cyclone.sh

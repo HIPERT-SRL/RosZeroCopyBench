@@ -1,6 +1,0 @@
-*.swp
-.vscode/
-build/
-install/
-log/
-rclcpp/
