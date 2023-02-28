@@ -28,6 +28,7 @@ for d in dds:
     plt.legend(loc="upper left")
     plt.xlabel('sample')
     plt.ylabel('latency (ms)')
-    plt.title("ros2 " + str(d) + "latency")
+    plt.title("ros2 " + str(d) + " latency")
     plt.savefig('results' + str(d) + '.pdf')
+    plt.savefig('results' + str(d) + '.png', dpi=300)
     plt.show()
